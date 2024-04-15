@@ -2125,8 +2125,8 @@ public class FlutterBluePlusPlugin implements
         {
             // this callback is only for notifications & indications
             LogLevel level = LogLevel.DEBUG;
-            log(level, "onCharacteristicChanged:");
-            log(level, "  chr: " + uuidStr(characteristic.getUuid()));
+            //log(level, "onCharacteristicChanged:");
+            //log(level, "  chr: " + uuidStr(characteristic.getUuid()));
             onCharacteristicReceived(gatt, characteristic, value, BluetoothGatt.GATT_SUCCESS);
         }
 
